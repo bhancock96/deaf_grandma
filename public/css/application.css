@@ -1,9 +1,58 @@
-.container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+body {
+	background-color: #d5d6c0;
 }
-th {
-  text-align: left;
+
+h1 {
+	text-align: center;
+}
+
+p {
+	 margin: 0;
+}
+
+.address_form {
+	float: left;
+	display: inline-block;
+	width: 500px;
+	margin-left: 150px;
+}
+
+.address_list {
+	width: 325px;
+	height: 350px;
+	border: 1px solid black;
+	float: right;
+	display: inline-block;
+	margin-right: 150px;
+	background-color: white;
+}
+
+.address_form div {
+	margin-bottom: 60px;
+}
+
+input {
+	margin-left: 75px;
+	float: right;
+	width: 275px;
+}
+
+.submit {
+	width: 75px;
+}
+
+.new_contact {
+	width: 300px;
+	height: 15px;
+	margin-right: 0;
+	display: inline-block;
+}
+
+.delete .submit {
+	margin-right: 175px;
+	margin-top: 40px;
+}
+
+.selected {
+	background-color: #7b8eaf;
 }
